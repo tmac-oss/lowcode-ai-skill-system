@@ -1,0 +1,13 @@
+{
+  "modelName": "sealreturnbo",
+  "pageType": "table",
+  "displayFields": ["yzmc", "ghzt", "zkzt", "sqrxm", "yzssbm", "yjghrq", "sqsj"],
+  "hiddenFields": ["id", "clientType", "qrghsj", "qrghrxm", "yzdm", "sfwd", "sqbh"],
+  "readonlyFields": ["sqbh"],
+  "dictFields": [
+    { "field": "ghzt", "dictCode": "yygl_ghztDict" },
+    { "field": "zkzt", "dictCode": "yygl_zkztDict" }
+  ],
+  "relationFields": ["yzssbm_name", "sqrxm"],
+  "note": "列表中保留业务核心字段，屏蔽系统字段和敏感字段，状态字段绑定字典。"
+}
